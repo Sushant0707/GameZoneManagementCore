@@ -1,0 +1,138 @@
+﻿@model GameZoneManagement.Models.TblGameMode
+@{
+    ViewData["Title"] = "AdminDashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h4 class="mb-0">Admin Panel</h4>
+            <a asp-action="Logout" class="btn btn-outline-light btn-sm">Logout</a>
+        </div>
+
+        <div class="card-body">
+            <!-- Nav Tabs -->
+            <ul class="nav nav-tabs mb-4" id="adminTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="add-tab" data-bs-toggle="tab" data-bs-target="#add" type="button" role="tab">Add</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="records-tab" data-bs-toggle="tab" data-bs-target="#records" type="button" role="tab">All Records</button>
+                </li>
+            </ul>
+
+            <!-- Tab Contents -->
+            <div class="tab-content" id="adminTabContent">
+                <!-- Add Tab -->
+                <div class="tab-pane fade show active" id="add" role="tabpanel">
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <button class="btn btn-outline-primary w-100" onclick="showSection('modeSection')">Add Mode</button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-outline-primary w-100" onclick="showSection('typeSection')">Add Type</button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-outline-primary w-100" onclick="showSection('gameSection')">Add Game</button>
+                        </div>
+                    </div>
+
+                    <!-- Add Mode Section -->
+                    <div id="modeSection" class="section-content">
+                        <h5 class="text-primary">Add Mode</h5>
+
+                        @* Success / Error message display *@
+                        @if (TempData["Success"] != null)
+                        {
+                            <div class="alert alert-success">@TempData["Success"]</div>
+                        }
+                        @if (TempData["Error"] != null)
+                        {
+                            <div class="alert alert-danger">@TempData["Error"]</div>
+                        }
+
+                        <form asp-action="AddMode" method="post" class="card p-4 bg-light">
+                            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                            <div class="mb-3">
+                                <label class="form-label">Mode Name</label>
+                                <input name="ModeName" class="form-control" placeholder="Enter mode name" />
+                            </div>
+                            <button type="submit" class="btn btn-primary">Add Mode</button>
+                        </form>
+                    </div>
+
+                    <!-- Add Type Section -->
+                    <div id="typeSection" class="section-content d-none">
+                        <h5 class="text-primary">Add Type</h5>
+
+                        @if (TempData["Success"] != null)
+                        {
+                            <div class="alert alert-success">@TempData["Success"]</div>
+                        }
+                        @if (TempData["Error"] != null)
+                        {
+                            <div class="alert alert-danger">@TempData["Error"]</div>
+                        }
+
+                        <form asp-action="AddType" method="post" class="card p-4 bg-light">
+                            <div class="mb-3">
+                                <label class="form-label">Game Mode</label>
+                                <select asp-for="ModeId" asp-items="Model.GetModesList" class="form-control" required>
+                                    <option value="">-- Select Type --</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Type Name</label>
+                                <input name="TypeName" class="form-control" placeholder="Enter type name" />
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Add Type</button>
+                        </form>
+                    </div>
+
+
+                    <!-- Add Game Section -->
+                    <div id="gameSection" class="section-content d-none">
+                        <h5 class="text-primary">Add Game</h5>
+                        <form asp-action="AddGame" method="post" class="card p-4 bg-light">
+                            <div class="mb-3">
+                                <label class="form-label">Game Name</label>
+                                <input name="GameName" class="form-control" placeholder="Enter game name" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Mode</label>
+                                <input name="ModeId" class="form-control" placeholder="Mode ID or Dropdown" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Type</label>
+                                <input name="TypeId" class="form-control" placeholder="Type ID or Dropdown" />
+                            </div>
+                            <button type="submit" class="btn btn-primary">Add Game</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- All Records Tab -->
+                <div class="tab-pane fade" id="records" role="tabpanel">
+                    <p>All game/mode/type records will be listed here. (Design this later as needed.)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.section-content');
+            sections.forEach(s => s.classList.add('d-none'));
+            document.getElementById(sectionId).classList.remove('d-none');
+        }
+
+        // Automatically show Add Mode section on page load
+        document.addEventListener("DOMContentLoaded", function () {
+            showSection('modeSection');
+        });
+    </script>
+}
