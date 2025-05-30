@@ -47,6 +47,8 @@ namespace GameZoneManagement.Controllers
             return user.UserType == "Admin" ? RedirectToAction("AdminDashboard") : RedirectToAction("PlayerDashboard");
         }
 
+
+
         public IActionResult AdminDashboard() 
         {
             var types = _userService.GetGameModes()
@@ -56,13 +58,33 @@ namespace GameZoneManagement.Controllers
                     Text = x.GamingMode
                 }).ToList();
 
-        var model = new TblGameMode
+        var model = new TblGame
         {
             GetModesList = types
         };
 
             return View(model);
     }
+
+
+        [HttpGet]
+        public JsonResult GetTypesByMode (int modeId)
+        {
+            var Modes = _userService.GetGameTypes(modeId)
+                .Where(m => m.ModeId == modeId)
+                .Select(m => new
+                {
+                    id = m.GameTypeId,
+                    name = m.GameType
+                }).ToList();
+            return Json(Modes);
+        }
+
+
+
+
+
+
     public IActionResult PlayerDashboard() => View();
 
 
@@ -86,6 +108,28 @@ namespace GameZoneManagement.Controllers
             }
 
             return RedirectToAction("AdminDashboard");
+        }
+
+        [HttpPost]
+
+        public IActionResult AddType (TblGameType Addtype)
+        {
+            _userService.AddType(Addtype);
+
+            TempData["Success"] = "Type added successfully!";
+            return RedirectToAction("AdminDashboard");
+
+        }
+
+        [HttpPost]
+
+        public IActionResult AddGame(TblGame AddGame)
+        {
+            _userService.AddGame(AddGame);
+
+            TempData["Success"] = "Game Added successfully!";
+            return RedirectToAction("AdminDashboard");
+
         }
 
     }

@@ -11,6 +11,5 @@ public partial class TblGameMode
 
     public string? GamingMode { get; set; }
 
-    [NotMapped]
-    public List<SelectListItem> GetModesList { get; set; }
+   
 }

@@ -1,30 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Sushant\\GameZoneManagementCore\\",
+  "WorkspaceRootPath": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|d:\\sushant\\gamezonemanagementcore\\gamezonemanagement\\views\\gamezone\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|g:\\.net\\asp .net core\\gamezonemanagement\\gamezonemanagement\\views\\gamezone\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|solutionrelative:gamezonemanagement\\views\\gamezone\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|d:\\sushant\\gamezonemanagementcore\\gamezonemanagement\\controllers\\gamezonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|g:\\.net\\asp .net core\\gamezonemanagement\\gamezonemanagement\\controllers\\gamezonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|solutionrelative:gamezonemanagement\\controllers\\gamezonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|d:\\sushant\\gamezonemanagementcore\\gamezonemanagement\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|g:\\.net\\asp .net core\\gamezonemanagement\\gamezonemanagement\\models\\tblgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|solutionrelative:gamezonemanagement\\models\\tblgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|g:\\.net\\asp .net core\\gamezonemanagement\\gamezonemanagement\\models\\tblgametype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|solutionrelative:gamezonemanagement\\models\\tblgametype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|g:\\.net\\asp .net core\\gamezonemanagement\\gamezonemanagement\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|solutionrelative:gamezonemanagement\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|d:\\sushant\\gamezonemanagementcore\\gamezonemanagement\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|solutionrelative:gamezonemanagement\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|d:\\sushant\\gamezonemanagementcore\\gamezonemanagement\\models\\tblgamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|g:\\.net\\asp .net core\\gamezonemanagement\\gamezonemanagement\\models\\tblgamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|solutionrelative:gamezonemanagement\\models\\tblgamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|d:\\sushant\\gamezonemanagementcore\\gamezonemanagement\\models\\gamezonecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|g:\\.net\\asp .net core\\gamezonemanagement\\gamezonemanagement\\models\\gamezonecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|solutionrelative:gamezonemanagement\\models\\gamezonecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|g:\\.net\\asp .net core\\gamezonemanagement\\gamezonemanagement\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7E585-91CB-4B7B-922A-FD25C6D991D6}|GameZoneManagement\\GameZoneManagement.csproj|solutionrelative:gamezonemanagement\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,52 +46,55 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\Services\\UserService.cs",
+              "DocumentMoniker": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "GameZoneManagement\\Services\\UserService.cs",
-              "ToolTip": "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\Services\\UserService.cs",
+              "ToolTip": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Services\\UserService.cs",
               "RelativeToolTip": "GameZoneManagement\\Services\\UserService.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAnwDYAAAAAAAAA",
+              "ViewState": "AQIAAC0AAADAmZmZmZkZwEQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T19:01:15.34Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\Services\\IUserService.cs",
+              "DocumentMoniker": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "GameZoneManagement\\Services\\IUserService.cs",
-              "ToolTip": "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\Services\\IUserService.cs",
+              "ToolTip": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Services\\IUserService.cs",
               "RelativeToolTip": "GameZoneManagement\\Services\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T19:00:01.053Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GameZoneController.cs",
-              "DocumentMoniker": "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\Controllers\\GameZoneController.cs",
+              "DocumentMoniker": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Controllers\\GameZoneController.cs",
               "RelativeDocumentMoniker": "GameZoneManagement\\Controllers\\GameZoneController.cs",
-              "ToolTip": "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\Controllers\\GameZoneController.cs",
+              "ToolTip": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Controllers\\GameZoneController.cs",
               "RelativeToolTip": "GameZoneManagement\\Controllers\\GameZoneController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAmwD8AAAAMAAAA",
+              "ViewState": "AQIAAAUAAACAMjMzMzMbwDwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T18:49:17.329Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AdminDashboard.cshtml",
-              "DocumentMoniker": "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\Views\\GameZone\\AdminDashboard.cshtml",
+              "DocumentMoniker": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Views\\GameZone\\AdminDashboard.cshtml",
               "RelativeDocumentMoniker": "GameZoneManagement\\Views\\GameZone\\AdminDashboard.cshtml",
-              "ToolTip": "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\Views\\GameZone\\AdminDashboard.cshtml",
+              "ToolTip": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Views\\GameZone\\AdminDashboard.cshtml",
               "RelativeToolTip": "GameZoneManagement\\Views\\GameZone\\AdminDashboard.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-28T10:39:10.25Z",
               "IsPinned": true,
@@ -91,20 +102,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GameZoneContext.cs",
-              "DocumentMoniker": "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\Models\\GameZoneContext.cs",
+              "DocumentMoniker": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Models\\GameZoneContext.cs",
               "RelativeDocumentMoniker": "GameZoneManagement\\Models\\GameZoneContext.cs",
-              "ToolTip": "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\Models\\GameZoneContext.cs",
+              "ToolTip": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Models\\GameZoneContext.cs",
               "RelativeToolTip": "GameZoneManagement\\Models\\GameZoneContext.cs",
-              "ViewState": "AQIAAGIAAAAAy8zMzMwhwE0AAAA5AAAA",
+              "ViewState": "AQIAACoAAAAAzMzMzEw5wDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T11:40:59.095Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TblGame.cs",
+              "DocumentMoniker": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Models\\TblGame.cs",
+              "RelativeDocumentMoniker": "GameZoneManagement\\Models\\TblGame.cs",
+              "ToolTip": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Models\\TblGame.cs",
+              "RelativeToolTip": "GameZoneManagement\\Models\\TblGame.cs",
+              "ViewState": "AQIAAAcAAAAAMzMzMzMLwBoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T10:55:24.079Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -112,23 +134,45 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TblGameMode.cs",
-              "DocumentMoniker": "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\Models\\TblGameMode.cs",
+              "DocumentMoniker": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Models\\TblGameMode.cs",
               "RelativeDocumentMoniker": "GameZoneManagement\\Models\\TblGameMode.cs",
-              "ToolTip": "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\Models\\TblGameMode.cs",
+              "ToolTip": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Models\\TblGameMode.cs",
               "RelativeToolTip": "GameZoneManagement\\Models\\TblGameMode.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T11:02:08.566Z"
+              "WhenOpened": "2025-05-30T11:00:56.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TblGameType.cs",
+              "DocumentMoniker": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Models\\TblGameType.cs",
+              "RelativeDocumentMoniker": "GameZoneManagement\\Models\\TblGameType.cs",
+              "ToolTip": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\Models\\TblGameType.cs",
+              "RelativeToolTip": "GameZoneManagement\\Models\\TblGameType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T10:56:55.875Z",
+              "EditorCaption": ""
             }
           ]
         }

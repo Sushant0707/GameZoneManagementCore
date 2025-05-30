@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\GameZoneManagement.csproj": {}
+    "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\GameZoneManagement.csproj": {}
   },
   "projects": {
-    "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\GameZoneManagement.csproj": {
+    "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\GameZoneManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\GameZoneManagement.csproj",
+        "projectUniqueName": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\GameZoneManagement.csproj",
         "projectName": "GameZoneManagement",
-        "projectPath": "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\GameZoneManagement.csproj",
-        "packagesPath": "C:\\Users\\Sameer\\.nuget\\packages\\",
-        "outputPath": "D:\\Sushant\\GameZoneManagementCore\\GameZoneManagement\\obj\\",
+        "projectPath": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\GameZoneManagement.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "G:\\.NET\\ASP .NET CORE\\GameZoneManagement\\GameZoneManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sameer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

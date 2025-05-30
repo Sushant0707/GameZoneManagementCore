@@ -282,3 +282,4 @@ G:\.NET\ASP .NET CORE\GameZoneManagement\GameZoneManagement\bin\Debug\net8.0\run
 G:\.NET\ASP .NET CORE\GameZoneManagement\GameZoneManagement\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 G:\.NET\ASP .NET CORE\GameZoneManagement\GameZoneManagement\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 G:\.NET\ASP .NET CORE\GameZoneManagement\GameZoneManagement\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+G:\.NET\ASP .NET CORE\GameZoneManagement\GameZoneManagement\obj\Debug\net8.0\GameZoneManagement.sourcelink.json

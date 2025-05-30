@@ -50,5 +50,23 @@ namespace GameZoneManagement.Services
         {
             return _context.TblGameModes.ToList();
         }
+
+        public void AddType (TblGameType AddType)
+        {
+            _context.TblGameTypes.Add(AddType);
+            _context.SaveChanges();
+        }
+
+        public List<TblGameType> GetGameTypes(int ModeId)
+        {
+           return _context.TblGameTypes
+                .Where(m =>  m.ModeId == ModeId).ToList();
+        }
+
+        public void AddGame(TblGame AddGame)
+        {
+            _context.TblGames.Add(AddGame);
+            _context.SaveChanges();
+        }
     }
 }

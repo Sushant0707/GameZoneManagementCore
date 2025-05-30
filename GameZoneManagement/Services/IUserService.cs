@@ -10,6 +10,12 @@ namespace GameZoneManagement.Services
 
         Task<bool> AddModeAsync(string modeName);
 
+        void AddType(TblGameType AddType);
+
         List<TblGameMode> GetGameModes();
+
+        List<TblGameType> GetGameTypes(int TypeId);
+
+        void AddGame(TblGame AddGame);
     }
 }

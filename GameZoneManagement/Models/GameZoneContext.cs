@@ -44,9 +44,10 @@ public partial class GameZoneContext : DbContext
     {
         modelBuilder.Entity<TblGame>(entity =>
         {
-            entity
-                .HasNoKey()
-                .ToTable("tblGames");
+
+            entity.ToTable("tblGames");
+
+            entity.HasKey(e => e.Id);
 
             entity.Property(e => e.Duration).HasMaxLength(50);
             entity.Property(e => e.Games).HasMaxLength(50);
